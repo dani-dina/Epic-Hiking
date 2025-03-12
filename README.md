@@ -1,31 +1,78 @@
-<<<<<<< HEAD
-# Epic-Hiking
-=======
-https://chatgpt.com/canvas/shared/67d20da1a15c8191aad64b224a43f229
-
 EpicHiking Website
 
-EpicHiking is a modern and responsive website designed for hiking enthusiasts. The platform provides information about hiking destinations, facilities, and booking options. The project is built with React.js and Tailwind CSS, ensuring a seamless and dynamic user experience.
+EpicHiking is a responsive web application designed to help users explore and book hiking adventures with modern UI and seamless navigation.
 
-📌 Features
+🚀 Features
 
-Responsive and user-friendly interface
+Fully responsive design
 
-Dynamic navigation with a mobile menu
+Dynamic navigation with a collapsible menu
 
-Subscription form with email input
+Facilities showcase (A/C, Swimming, Riding, Dinner)
 
-Footer with social media links
+Hotel listing with pricing details
 
-Facility listings with icons and descriptions
+Search functionality for destinations
 
-🛠️ Technologies Used
+🛠️ Tech Stack
 
-React.js - Frontend framework
+Frontend: React.js, Tailwind CSS
 
-Tailwind CSS - Styling
+Icons: Custom SVG icons
 
-JavaScript (ES6+) - Core programming language
+📂 Project Structure
 
-Scroll Lock - Disables page scrolling when the menu is open
->>>>>>> 806e48a (Initial commit)
+📦 src
+├── 📂 assets       # Images and icons
+├── 📂 components   # Reusable UI components
+│   ├── Navbar.jsx  # Navigation bar
+│   ├── Jumbotron.jsx  # Hero section
+│   ├── Button.jsx  # Custom button component
+│   ├── ...
+├── 📂 constants    # Static data for navigation
+├── App.js         # Main app component
+└── index.js       # Entry point
+
+📦 Installation
+
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/EpicHiking.git
+cd EpicHiking
+
+2️⃣ Install dependencies
+
+yarn install  # or npm install
+
+3️⃣ Start the development server
+
+yarn dev  # or npm start
+
+🎯 Usage
+
+Navigate through the website using the Navbar.
+
+Explore different facilities and hotels.
+
+Use the search bar to find your preferred hiking destinations.
+
+🚀 Deployment
+
+To build and deploy the project, run:
+
+yarn build  # or npm run build
+
+Then deploy the /dist folder to your preferred hosting service (Vercel, Netlify, etc.).
+
+🙌 Contributing
+
+Feel free to fork the repository and submit pull requests for improvements.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🔗 Connect with Me
+
+📧 Email: your-email@example.com🔗 GitHub: your-username
+
